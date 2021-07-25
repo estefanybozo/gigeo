@@ -1,0 +1,25 @@
+.banner__container{
+
+    display: flex;
+    height: 14em;
+    background-image: url(/assets/img/image-banner.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  background-position: center;
+
+}
+
+@media only screen and (min-width: $very-small) and (max-width:$small){ //desde 320 hasta 576px 
+
+  .banner__container{
+
+    display: flex;
+    height: 6em;
+    background-image: url(/assets/img/image-banner.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  background-position: center;
+
+}
+
+}

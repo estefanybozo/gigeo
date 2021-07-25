@@ -1,0 +1,14 @@
+
+@media only screen and (min-width: $small) { //desde 576px 
+
+.galeria__container{
+width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 3em;
+    row-gap: 2em;
+    margin-bottom: 3em;
+
+}
+}

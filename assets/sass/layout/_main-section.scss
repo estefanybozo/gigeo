@@ -1,0 +1,96 @@
+.caja__chica{
+margin-top:1em;
+margin-bottom: 3em;
+
+h3{
+
+font-weight: $extra-bold;
+
+}
+.fotos h5{
+
+    font-weight: $extra-bold;
+    
+    }
+
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titulo__galeria{
+
+    margin-bottom: 1.5em;
+}
+
+.info__chica{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nombre__chica{
+
+margin-left: 1.8em;
+
+}
+
+
+
+.nombre__chica p{
+    margin-top: -.8em;
+}
+
+.foto__perfil{
+    width: 100%;
+    border-radius: 90px;
+}
+
+
+
+.fotos{
+height: auto;
+
+}
+
+.fotos img{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.foto__chica{
+
+    height: auto;
+    width: 4em;
+
+}
+
+
+
+
+@media only screen and (min-width: $very-small) and (max-width:$small){ //desde 320 hasta 576px 
+
+    .botones__chica {
+        display: none;
+    }
+
+    .caja__chica{
+
+      display: flex;
+      justify-content: center;
+    }
+
+    .titulo__galeria{
+
+        display: flex;
+      justify-content: center;
+    }
+
+
+.galeria__container{
+    margin-bottom: 3em;
+}
+
+
+
+
+}
